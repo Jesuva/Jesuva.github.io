@@ -1520,6 +1520,7 @@ body.loaded #preloader .loader {
 @media(max-width:550px) {
     .section {
         padding-top: 70px;
+        background-size:100% 100%;
     }
     .section-block {
         padding: 70px;
@@ -1530,6 +1531,7 @@ body.loaded #preloader .loader {
 @media(max-width:400px) {
     .section {
         padding-top: 40px;
+        background-size:100% 100%;
     }
     .section-block {
         padding: 40px;
