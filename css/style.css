@@ -252,13 +252,13 @@ body.border-dark .main-content:after {
     text-align: center;
 }
 
-.intro-text>h1 {
+.intro-text>h3 {
     margin: 0;
     color: #FFF;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 8px;
-    font-size: 78px;
+    font-size: 38px;
 }
 
 .intro-text>p {
