@@ -517,7 +517,7 @@
     
     .section-main {
         padding: 0;
-        background-image: url(/Profile/img/bg3.jpg);
+        background-image: url('/Profile/img/bg3.jpg');
     }
     
     .section-main,
