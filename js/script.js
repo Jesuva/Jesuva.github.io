@@ -103,7 +103,6 @@ $(function(){
 		return (/^[,:{}\[\]0-9.\-+Eaeflnr-u \n\r\t]*$/).test(str);
 	}
 	$('#contact-form').validator().on('submit', function (e) {
-		
 		if (!e.isDefaultPrevented()) {
 			// If there is no any error in validation then send the message
 			
