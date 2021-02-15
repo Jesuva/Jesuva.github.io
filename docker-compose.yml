@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: my-business-site
+    build: .
+    container_name: jesuva-site
+    restart: always
+    ports:
+      - "8080:80"
