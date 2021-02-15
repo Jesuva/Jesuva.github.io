@@ -1,1139 +1,586 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en" class="no-js">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <title>Jesuva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Jesuva - " />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Jesuva, portfolio" />
+    <meta name="author" content="lmtheme" />
+    <link rel="shortcut icon" href="favicon.ico">
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/transition-animations.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    
+  
 
+    <link rel="stylesheet" href="preview/lmpixels-demo-panel.css" type="text/css">
 
-    <link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css'>
-    <link rel='stylesheet' type='text/css' href='css/linea.css'>
-    <link rel='stylesheet' type='text/css' href='css/ionicons.min.css'>
-    <link rel='stylesheet' type='text/css' href='css/owl.carousel.css'>
-    <link rel='stylesheet' type='text/css' href='css/magnific-popup.css'>
-    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    
+    
+  </head>
 
-</head>
-
-<body>
-
-
-    <div id='preloader'>
-        <div class='loader'></div>
-        <div class='left'></div>
-        <div class='right'></div>
+  <body>
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
     </div>
 
+    <div id="page" class="page">
+      <header id="site_header" class="header">
+        <div class="my-photo">
+          <img src="images/my_photo.jpeg" alt="image">
+          <div class="mask"></div>
+        </div>
 
-    <div class='main-content'>
+        <div class="site-title-block">
+          <h3 class="site-title">Jesuva Arockiadoss S</h3>
+          <p class="site-description">Full Stack Developer</p>
+        </div>
 
-        <!--=====================================================
-				Page Borders
-			=====================================================-->
-        <div class='page-border border-left'></div>
-        <div class='page-border border-right'></div>
-        <div class='page-border border-top'></div>
-        <div class='page-border border-bottom'></div>
-
-
-
-        <!--=====================================================
-				Menu Button
-			=====================================================-->
-        <a href='#' class='menu-btn'>
-            <span class='lines'>
-					<span class='l1' ></span>
-            <span class='l2'></span>
-            <span class='l3'></span>
-            </span>
+        <a class="menu-toggle mobile-visible">
+          <i class="fa fa-bars"></i>
         </a>
+      </header>
+
+      <div id="main" class="site-main">
+        <div class="pt-wrapper">
+          <div class="site-nav mobile-menu-hide">
+            <ul id="nav" class="site-main-menu">
+              <li>
+                <a class="pt-trigger" href="#about_me" data-animation="58" data-goto="1">About me</a><!-- href value = data-id without # of .pt-page -->
+              </li>
+              <li>
+                <a class="pt-trigger" href="#resume" data-animation="59" data-goto="2">Resume</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#portfolio" data-animation="60" data-goto="3">Portfolio</a>
+              </li>
+              <li>
+                <a class="pt-trigger" href="#contact" data-animation="58" data-goto="5">Contact</a>
+              </li>
+            </ul>
+
+            <ul class="social-links">
+              <li><a class="tip social-button" href="https://github.com/Jesuva" title="GitHub"><i class="fa fa-github"></i></a></li>
+              <li><a class="tip social-button" href="https://www.instagram.com/_jesuva_/" title="instagram"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="subpages">
+            <section class="pt-page pt-page-1" data-id="about_me">
+              <div class="section-title-block">
+                <h2 class="section-title">About Me</h2>
+                <h5 class="section-description">Artist, Thinker, Innovator</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12 col-md-12 mobile-visible subpage-block">
+                  <div class="my-photo-small">
+                    <img src="images/photo_small.jpeg" alt="image">
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="general-info">
+                    <h3>I am a Full Stack Developer</h3>
+                    <p>I have unconditional desire towards the Web Development Domain, i have been too curious about creating new websites. I have mentioned those websites in my projects section.</p>
+                    <p>My hobby is playing music,I am a Pianist,guitarist,drummer and so on. I will always be ready to play musics in any instruments. In the same as in the work, I can able to manage any domain. The programming domain or Team management domain.</p>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4 subpage-block">
+                  <div class="block end">
+                    <ul class="info-list">
+                      <li><span class="title">Name</span><span class="value">Jesuva S Arockiadoss</span></li>
+                      <li><span class="title">Age</span><span class="value">21</span></li>
+                      <li><span class="title">Address</span><span class="value">Kalugumalai,Tuticorin(Dist),TamilNadu</span></li>
+                      <li><span class="title">e-mail</span><span class="value"><a href="mailto:jesuva.2308@gmail.com">jesuva.2308@gmail.com</a></span></li>
+                      <li><span class="title">Phone</span><span class="value">9080150278</span></li>
+                      <li><span class="title">Freelance</span><span class="value available">Available</span></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Testimonial</h3>
+                  </div>
+                  <div class="testimonials owl-carousel">
+
+                    <div class="testimonial-item">
+                      <div class="testimonial-content">
+                        <div class="testimonial-text">
+                          <p>"Creating the Creatitiviy"</p>
+                        </div>
+                      </div>            
+                      
+                      <div class="testimonial-credits">
+                        <div class="testimonial-picture">
+                          <img src="images/testimonials/testimonial_photo_1.png" alt="">
+                        </div>              
+                        
+                        <div class="testimonial-author-info">
+                          <p class="testimonial-author">Jesuva S</p>
+                          <p class="testimonial-firm">Jesuva</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="block-title">
+                <h3>Services</h3>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/web_design.png" alt="Responsive Design">
+                      <h4>Web Design</h4>
+                      <p>I have created the best User Experience web application for various events!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/copywrite.png" alt="Copywriter">
+                      <h4>CRM</h4>
+                      <p>I have created and managed the web applications for the customer relationship management!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/ecommerce.png" alt="E-Commerce">
+                      <h4>E-Commerce</h4>
+                      <p>The Commercial websites for the product sales, to make the shopping easier for customer!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 subpage-block">
+                  <div class="service-block"> 
+                    <div class="service-info">
+                      <img src="images/service/management.png" alt="Management">
+                      <h4>Cloud Migration</h4>
+                      <p>I can help you to transfer the web application developed in older version to migrate to new technologies!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </section>
+
+            <section class="pt-page pt-page-2" data-id="resume">
+              <div class="section-title-block">
+                <h2 class="section-title">Resume</h2>
+                <h5 class="section-description">Fresher!</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Education</h3>
+                  </div>
+                  <div class="timeline">
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2021</h5>
+                      <h4 class="event-name">B.Tech-Department of Information Technology</h4>
+                      <span class="event-description">National Engineering College</span>
+                      <p>Scored 86.2%</p>
+                    </div>
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2017</h5>
+                      <h4 class="event-name">HSC</h4>
+                      <span class="event-description">RoseMary Matriculation School,Tirunelveli</span>
+                      <p>Scored 91.3% in HSC Board Exam</p>
+                    </div>
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">2015</h5>
+                      <h4 class="event-name">SSLC</h4>
+                      <span class="event-description">R.C.Susai School,Kalugumalai</span>
+                      <p>Scored 93.4% in SSLC Board Exam</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Experience</h3>
+                  </div>
+                  <div class="timeline">
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">November 2018</h5>
+                      <h4 class="event-name">Frontend-Developer</h4>
+                      <span class="event-description">OODI Designs,Bengaluru</span>
+                      <p>Done a <b>2 Weeks</b> Internship in OODI designs as a Frontend-Developer</p>
+                    </div>
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">May 2019</h5>
+                      <h4 class="event-name">Android Developer</h4>
+                      <span class="event-description">UNIX Technologies,Tirunelveli</span>
+                      <p>Completed a <b>One Month</b> Internship as a Android Application Developer</p>
+                    </div>
+                    <div class="timeline-event te-primary">
+                      <h5 class="event-date">May 2020</h5>
+                      <h4 class="event-name">Full-Stack Developer</h4>
+                      <span class="event-description">Aiyolabs,Bengaluru</span>
+                      <p>Completed <b>Four Months</b> Internship as the Full-Stack Developer</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 subpage-block">
+                  <div class="block-title">
+                    <h3>Technology Skills</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>Adobe Xd</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-1"></div>
+                    </div>
+
+                    <h4>Android Studio</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-2"></div>
+                    </div>
+
+                    <h4>Frameworks</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-4"></div>
+                    </div> 
+                  </div>
+
+                  <div class="block-title">
+                    <h3>Coding Skills</h3>
+                  </div>
+                  <div class="skills-info">
+                    <h4>Python</h4>                               
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-4"></div>
+                    </div>
+
+                    <h4>C</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-5"></div>
+                    </div>
+
+                    <h4>C++</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-6"></div>
+                    </div>
+
+                    <h4>Web Development</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-7"></div>
+                    </div>
+
+                    <h4>PHP</h4>
+                    <div class="skill-container">
+                      <div class="skill-percentage skill-8"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-12">
+                  <div class="download-cv-block">
+                    <a class="button" target="_blank" href="/docs/JesuvaResume.pdf">View Resume</a>
+                    <a class="button" href="/docs/JesuvaResume.pdf" download="JesuvaResume.pdf">Download Resume</a>
+                  </div>
+                </div>
+              </div>
+            </section>
 
 
-        <!--=====================================================
-				Menu
-			=====================================================-->
-        <div class='menu'>
-            <div class='inner'>
-                <ul class='menu-items'>
+            <section class="pt-page pt-page-3" data-id="portfolio">
+              <div class="section-title-block">
+                <h2 class="section-title">Portfolio</h2>
+                <h5 class="section-description">My Best Works</h5>
+              </div>
 
-                    <li>
-                        <a href='#' class='section-toggle' data-section='intro'>
-								Home
-							</a>
-                    </li>
-
-                    <li>
-                        <a href='#about' class='section-toggle' data-section='about'>
-								About
-							</a>
-                    </li>
-
-                    <li>
-                        <a href='#resume' class='section-toggle' data-section='resume'>
-								Resume
-							</a>
-                    </li>
-
-                    <li>
-                        <a href='#portfolio' class='section-toggle' data-section='portfolio'>
-								Projects
-							</a>
-                    </li>
-
-
-                    <li>
-                        <a href='#contact' class='section-toggle' data-section='contact'>
-								Contact
-							</a>
-                    </li>
-
-
+              <div class="portfolio-content">
+                            
+                <ul id="portfolio_filters" class="portfolio-filters">
+                  <li class="active">
+                    <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="design">Web Design</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="application">Web Application</a>
+                  </li>
+                  <li>
+                    <a class="filter btn btn-sm btn-link" data-group="intern">Intern Projects</a>
+                  </li>
                 </ul>
-            </div>
+
+                <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                  <figure class="item" data-groups='["all", "intern"]'>
+                    <a href = "images/portfolio/1.png" class="lightbox" title="republican ads">
+                      <img src="images/portfolio/1.png" alt="">
+                      <div>
+                        <h5 class="name">RepublicanAds</h5>
+                        <small>Sharing the impression to the User</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all", "intern"]'>
+                    <a href="images/portfolio/2.png" title="Restaurant CRM" class="lightbox">
+                      <img src="images/portfolio/2.png" alt="">
+                      <div>
+                        <h5 class="name">Restaurant CRM</h5>
+                        <small>Integreated CRM for Restaurants</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all","intern"]'>
+                    <a href="images/portfolio/3.png" class="lightbox" title="Under Construction">
+                      <img src="images/portfolio/3.png" alt="">
+                      <div>
+                        <h5 class="name">Sankalp</h5>
+                        <small>Under Development Project</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                 
+                  <figure class="item" data-groups='["all", "design"]'>
+                    <a href="images/portfolio/4.png" class="lightbox" title="Jeontuz">
+                      <img src="images/portfolio/4.png" alt="Jeontuz">
+                      <div>
+                        <h5 class="name">Jeontuz-2k18</h5>
+                        <small>Website for National Level Symposium</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all", "design"]'>
+                    <a href="images/portfolio/5.png" class="lightbox" title="Jeontuz">
+                      <img src="images/portfolio/5.png" alt="">
+                      <div>
+                        <h5 class="name">Jeontuz-2K19</h5>
+                        <small>Website for National Level Symposium</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all", "design"]'>
+                    <a href="images/portfolio/6.png" class="lightbox" title="Reinox" >
+                      <img src="images/portfolio/6.png" alt="">
+                      <div>
+                        <h5 class="name">Reinox</h5>
+                        <small>Website for National Level Symposium</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all", "application"]'>
+                    <a href="images/portfolio/7.png" title="Jeontuz" class="lightbox">
+                      <img src="images/portfolio/7.png" alt="">
+                      <div>
+                        <h5 class="name">TutorBook</h5>
+                        <small>Web Application for Student Data Management</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all",  "design"]'>
+                    <a href="images/portfolio/8.png" class="lightbox" title="Jeontuz">
+                      <img src="images/portfolio/8.png" alt="">
+                      <div>
+                        <h5 class="name">CSI-Student Chapter</h5>
+                        <small>Website for Technical Symposium</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all","application"]'>
+                    <a href="images/portfolio/9.png" class="lightbox" title="portrail">
+                      <img src="images/portfolio/9.png" alt="">
+                      <div>
+                        <h5 class="name">Portrail-UD</h5>
+                        <small>Web Application for Allocating Porters in Railwaystation</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all", "design"]'>
+                    <a href="images/portfolio/10.png" title="NSS-NEC" class="lightbox">
+                      <img src="images/portfolio/10.png" alt="">
+                      <div>
+                        <h5 class="name">NSS-NEC</h5>
+                        <small>Website for NSS Student chapter NEC</small>
+                        <i class="fa fa-video-camera"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all","application"]'>
+                    <a href="images/portfolio/11.png" class="lightbox" title="smartManufacturing">
+                      <img src="images/portfolio/11.png" alt="">
+                      <div>
+                        <h5 class="name">Smart Manufacturing</h5>
+                        <small>Web Application for Managing the Manufacturing Process</small>
+                        <i class="fa fa-image"></i>
+                      </div>
+                    </a>
+                  </figure>
+                  
+                  <figure class="item" data-groups='["all","design"]'>
+                    <a href="images/portfolio/12.png" class="lightbox" title="CSI-NEC">
+                      <img src="images/portfolio/12.png" alt="">
+                      <div>
+                        <h5 class="name">CSI-NEC</h5>
+                        <small>Website for CSI student Chapter in the College</small>
+                        <i class="fa fa-file-text-o"></i>
+                      </div>
+                    </a>
+                  </figure>
+                </div>
+
+              </div>
+
+            </section>
+            
+            <section class="pt-page pt-page-4" data-id="blog">
+              
+            </section>
+            
+            <section class="pt-page pt-page-5" data-id="contact">
+              <div class="section-title-block">
+                <h2 class="section-title">Contact</h2>
+                <h5 class="section-description">Get in Touch</h5>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>I am Here!</h3>
+                  </div>
+                  <p></p>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-map-marker"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>Kalugumalai,Tuticorin(Dist),TamilNadu </h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-mail"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5><a href="#" class="" data-cfemail="jesuva.2308@gmail.com">[email&#160;protected]</a></h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-call"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>9080150278</h5>
+                    </div>
+                  </div>
+                  <div class="contact-info-block">
+                    <div class="ci-icon">
+                      <i class="pe-7s-icon pe-7s-check"></i>
+                    </div>
+                    <div class="ci-text">
+                      <h5>Freelance Available</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 subpage-block">
+                  <div class="block-title">
+                    <h3>Contact Form</h3>
+                  </div>
+                  <form id="contact-form" method="post" action="#">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+                      <div class="form-group">
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-user"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-envelope"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                          <div class="form-control-border"></div>
+                          <i class="form-control-icon fa fa-comment"></i>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                      
+                      <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-callback="correctCaptcha"></div>
+
+                      <input type="submit" class="button btn-send" value="Send message">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </section>
+
+          </div>
         </div>
-
-        <div class='animation-block'></div>
-
-
-        <!--=====================================================
-				Sections
-			=====================================================-->
-        <div class='sections'>
-
-            <!--=====================================================
-					Main Section
-				=====================================================-->
-            <section id='intro' class='section section-main active'>
-
-                <div class='container-fluid'>
-
-                    <div class='v-align'>
-                        <div class='inner'>
-                            <div class='intro-text'>
-
-                                <h3>Jesuva S Arockiadoss</h3>
-
-                                <p>
-                                    Young Budding Engineer! </p>
-
-                                <div class='intro-btns'>
-
-                                    <a href='#about' class='btn-custom section-toggle' data-section='about'>
-											Profile
-										</a>
-
-                                    <a href='#contact' class='btn-custom section-toggle' data-section='contact'>
-											Hire Me
-										</a>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-            <!--=====================================================
-					About Section
-				=====================================================-->
-            <section id='about' class='section about-section border-d'>
-
-                <div class='section-block about-block'>
-                    <div class='container-fluid'>
-
-                        <div class='section-header'>
-                            <h2>
-                                I'm a <strong class='color'>Full Stack Developer</strong>
-                            </h2>
-                        </div>
-
-                        <div class='row'>
-
-                            <div class='col-md-4'>
-
-                                <ul class='info-list'>
-
-                                    <li>
-                                        <strong>Name:</strong>
-                                        <span>Jesuv S Arockiadoss</span>
-                                    </li>
-
-                                    <li>
-                                        <strong>Domain:</strong>
-                                        <span>Web Development,Cloud Solution Architect,DevOps</span>
-                                    </li>
-
-                                    <li>
-                                        <strong>Age:</strong>
-                                        <span>21 Years</span>
-                                    </li>
-
-                                    <li>
-                                        <strong>Residence:</strong>
-                                        <span>India</span>
-                                    </li>
-
-                                    <li>
-                                        <strong>Hometown:</strong>
-                                        <span>Kalugumalai</span>
-                                    </li>
-
-
-
-                                </ul>
-
-                            </div>
-
-                            <div class='col-md-8'>
-
-                                <div class='about-text'>
-                                    <p>
-                                        Myself S.Jesuva Arockiadoss, I have unconditional desire towards the Web Development Domain, i have been too curious about creating new websites. I have mentioned those websites in my projects section. My hobby is playing music,I am a Pianist,guitarist,drummer
-                                        and so on. I will always be ready to play musics in any instruments. In the same as in the work, I can able to manage any domain. The programming domain or Team management domain.
-
-                                    </p>
-
-
-
-                                </div>
-
-                                <div class='about-btns'>
-
-                                    <a  href="\img\Jesuva.pdf" class='btn-custom btn-color' target="blank">
-Resume
-                                    </a>
-
-                                    <a href="#contact" class='btn-custom btn-color section-toggle' data-section='contact'>
-											Hire Me
-										</a>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class='section-block services-block'>
-
-                    <div class='container-fluid'>
-
-                        <div class='section-header'>
-
-                            <h2>My <strong class='color'>Strengths</strong></h2>
-
-                        </div>
-
-
-
-                        <div class='row'>
-
-                            <div class='col-md-4'>
-                                <div class='service'>
-
-                                    <div class='icon'>
-                                        <i class='icon-basic-photo'></i>
-                                    </div>
-
-                                    <div class='content'>
-
-                                        <h4>UI Designing</h4>
-
-                                        <p>
-                                            I have huge knowledge on the UI Designing and I can make your comapny sites and other user interfaces more attractive and user Friendly!
-                                        </p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class='col-md-4'>
-                                <div class='service'>
-
-                                    <div class='icon'>
-                                        <i class='icon-basic-keyboard'></i>
-                                    </div>
-
-                                    <div class='content'>
-
-                                        <h4>Programming</h4>
-
-                                        <p>
-                                            I am a good programmer and problem solver, I can reduce the complexity of displaying the multimedia contentc in the websites and i have the ability to create light weight animations using programming languages!</p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class='col-md-4'>
-                                <div class='service'>
-
-                                    <div class='icon'>
-                                        <i class='ion-ios-people-outline'></i>
-                                    </div>
-
-                                    <div class='content'>
-
-                                        <h4>Team Management</h4>
-
-                                        <p>
-                                            I have the sound knowledge on the source control and devops concepts, so that i can manage the team work by organising their codes in the optimized manner!</p>
-
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-                <div class='section-block skills-block'>
-                    <div class='container-fluid'>
-
-                        <div class='section-header'>
-
-                            <h2>
-                                My <strong class='color'>Skills</strong>
-                            </h2>
-
-                        </div>
-
-                        <div class='row'>
-
-                            <div class='col-md-6'>
-
-                                <div class='skill'>
-
-                                    <h4>HTML/CSS</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:95%;'></div>
-                                    </div>
-
-                                </div>
-
-
-                                <div class='skill'>
-
-                                    <h4>php</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:90%;'></div>
-                                    </div>
-
-                                </div>
-
-
-                                <div class='skill'>
-
-                                    <h4>jQuery</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:75%;'></div>
-                                    </div>
-
-                                </div>
-
-                                <div class='skill'>
-
-                                    <h4>React</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:85%;'></div>
-                                    </div>
-
-                                </div>
-
-                                <div class='skill'>
-
-                                    <h4>Express Framework</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:90%;'></div>
-                                    </div>
-
-                                </div>
-
-                                <div class='skill'>
-
-                                    <h4>AWS Services</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:65%;'></div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class='col-md-6'>
-
-                                <div class='skill'>
-
-                                    <h4>JavaScript</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:85%;'></div>
-                                    </div>
-
-                                </div>
-
-
-                                <div class='skill'>
-
-                                    <h4>Python</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:90%;'></div>
-                                    </div>
-
-                                </div>
-
-
-                                <div class='skill'>
-
-                                    <h4>SQL</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:75%;'></div>
-                                    </div>
-
-                                </div>
-
-                                <div class='skill'>
-
-                                    <h4>NodeJS</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:80%;'></div>
-                                    </div>
-
-                                </div>
-
-                                <div class='skill'>
-
-                                    <h4>Laravel Framework</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:95%;'></div>
-                                    </div>
-
-                                </div>
-
-                                <div class='skill'>
-
-                                    <h4>DevOps</h4>
-
-                                    <div class='bar'>
-                                        <div class='percent' style='width:75%;'></div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class='section-block pricing-block'>
-
-                    <div class='section-header'>
-                        <h2>My <strong class='color'>Achievements</strong></h2>
-                    </div>
-
-
-                    <div class='row'>
-
-                        <div class='col-md-4'>
-
-                            <div class='p-table'>
-
-                                <div class='header'>
-
-                                    <h4>Web Designing</h4>
-
-                                    <div class='price'>
-                                        <span class='currency'>Rank</span>
-                                        <span class='amount'>1</span>
-
-                                    </div>
-
-
-                                </div>
-
-                                <ul class='items'>
-                                    <li>
-                                        Intra Level
-                                    </li>
-                                    <li>
-                                        College Competition-
-                                    </li>
-                                    <li>
-                                        Web Development
-                                    </li>
-                                </ul>
-
-
-
-                            </div>
-
-                        </div>
-
-                        <div class='col-md-4'>
-
-                            <div class='p-table'>
-
-                                <div class='header'>
-
-                                    <h4>Programing</h4>
-
-                                    <div class='price'>
-                                        <span class='currency'>Rank</span>
-                                        <span class='amount'>33</span>
-                                        <span class='period'></span>
-                                    </div>
-
-
-                                </div>
-
-                                <ul class='items'>
-                                    <li>
-                                        Coding Marathon
-                                    </li>
-                                    <li>
-                                        India level
-                                    </li>
-                                    <li>
-                                        Coding competition
-                                    </li>
-                                </ul>
-
-
-
-                            </div>
-
-                        </div>
-
-                        <div class='col-md-4'>
-
-                            <div class='p-table'>
-
-                                <div class='header'>
-
-                                    <h4>Programing</h4>
-
-                                    <div class='price'>
-                                        <span class='currency'>Rank</span>
-                                        <span class='amount'>5</span>
-                                    </div>
-
-
-                                </div>
-
-                                <ul class='items'>
-                                    <li>
-                                        Skillrack
-                                    </li>
-                                    <li>
-                                        Inter college
-                                    </li>
-                                    <li>
-                                        Coding Hackathon
-                                    </li>
-                                </ul>
-
-
-
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-
-            </section>
-
-
-
-            <section id='resume' class='section resume-section border-d'>
-
-                <div class='section-block timeline-block'>
-
-                    <div class='container-fluid'>
-
-                        <div class='section-header'>
-
-                            <h2>My <strong class='color'>Education</strong></h2>
-
-                        </div>
-
-                        <ul class='timeline'>
-
-                            <li>
-
-                                <div class='timeline-content'>
-
-                                    <h4>R.C.Susai Higher Secondary school</h4>
-
-                                    <em>
-											<span>SSLC (2014-2015)</span>
-											<span>93%</span>
-										</em>
-
-
-
-                                </div>
-
-                            </li>
-
-                            <li>
-
-                                <div class='timeline-content'>
-
-                                    <h4>RoseMary Matriculation School</h4>
-
-                                    <em>
-											<span>HSC (2016-2017)</span>
-											<span>91%</span>
-										</em>
-
-
-
-                                </div>
-
-                            </li>
-
-                            <li>
-
-                                <div class='timeline-content'>
-
-                                    <h4>National Engineering College</h4>
-
-                                    <em>
-											<span>Bachelor Degree (2017-2021)</span>
-											<span>87%</span>
-										</em>
-
-
-
-                                </div>
-
-                            </li>
-
-
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-                <div class='section-block timeline-block'>
-
-                    <div class='container-fluid'>
-
-                        <div class='section-header'>
-
-                            <h2>My <strong class='color'>Experience</strong></h2>
-
-                        </div>
-
-                        <ul class='timeline'>
-
-                            <li>
-
-                                <div class='timeline-content'>
-
-                                    <h4>Internship</h4>
-
-                                    <em>
-											<span>Two weeks Intership </span>
-											<span>WEB TECHNOLOGY</span>
-										</em>
-
-                                    <p>
-                                        My first intership is on OODI designs bangalore,I have gone through various Web technology that has to be Maintained while developing Websites</p>
-
-                                </div>
-
-                            </li>
-
-                            <li>
-
-                                <div class='timeline-content'>
-
-                                    <h4>Intership</h4>
-
-                                    <em>
-											<span>UnNIX Technologies</span>
-											<span>One month</span>
-										</em>
-
-                                    <p>
-                                        I have gone for a another internhsip on the domain of Web technology! </p>
-
-                                </div>
-
-                            </li>
-
-                            <li>
-
-                                <div class='timeline-content'>
-
-                                    <h4>Intership</h4>
-
-                                    <em>
-											<span>Aiyolabs</span>
-											<span>Four months</span>
-										</em>
-
-                                    <p>
-                                        I have done the Internship on Web Development in Aiyolabs Bangalore, there I have worked in the Real Time Projects </p>
-
-                                </div>
-
-                            </li>
-
-
-
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-
-
-            </section>
-
-
-            <!--=====================================================
-					Portfolio Section
-				=====================================================-->
-            <section id='portfolio' class='section portfolio-section border-d'>
-
-                <div class='section-block portfolio-block'>
-
-                    <div class='container-fluid'>
-
-
-                        <div class='section-header'>
-                            <h2>My <strong class='color'>Works</strong></h2>
-                        </div>
-
-                        <ul class='portfolio-filters'>
-                            <li>
-                                <a href='#' class='active' data-group='all'>
-										All
-									</a>
-                            </li>
-                            <li>
-                                <a href='#' data-group='web'>
-										Web
-									</a>
-                            </li>
-                            <li>
-                                <a href='#' data-group='tech'>
-										Tech
-									</a>
-                            </li>
-
-                        </ul>
-
-                        <ul class='portfolio-items'>
-
-                            <li data-groups='["web","tech"]'>
-                                <div class='inner'>
-                                    <img src='img/portfolio/i1.png' alt>
-
-                                    <div class='overlay'>
-
-                                        <a href='#popup-1' class='view-project'>
-												View Project
-											</a>
-
-                                        <!--project popup-->
-                                        <div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide'>
-                                            <figure>
-
-                                                <!--project popup image-->
-                                                <img src='img/portfolio/i1.png' alt>
-
-                                            </figure>
-                                            <div class='content'>
-
-                                                <!--project popup title-->
-                                                <h4>CSI Student Branch</h4>
-
-                                                <!--project popup description-->
-                                                <p>
-                                                    one of my project is the website development for our college Computer Society of India Student Branch and it is live now! </p>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li data-groups='["tech"]'>
-                                <div class='inner'>
-                                    <img src='img/portfolio/i2.png' alt>
-
-                                    <div class='overlay'>
-
-                                        <a href='#popup-2' class='view-project'>
-												View Project
-											</a>
-
-                                        <!--project popup-->
-                                        <div id='popup-2' class='popup-box zoom-anim-dialog mfp-hide'>
-                                            <figure>
-
-                                                <!--project popup image-->
-                                                <img src='img/portfolio/i2.png' alt>
-
-                                            </figure>
-                                            <div class='content'>
-
-                                                <!--project popup title-->
-                                                <h4>NSS Student Branch</h4>
-
-                                                <!--project popup description-->
-                                                <p>
-                                                    One of my project is the development of the National Service Scheme student branch website for the college NSS domain!</p>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li data-groups='["web"]'>
-                                <div class='inner'>
-                                    <img src='img/portfolio/i3.png' alt>
-
-                                    <div class='overlay'>
-
-                                        <a href='#popup-3' class='view-project'>
-												View Project
-											</a>
-
-                                        <!--project popup-->
-                                        <div id='popup-3' class='popup-box zoom-anim-dialog mfp-hide'>
-                                            <figure>
-
-                                                <!--project popup image-->
-                                                <img src='img/portfolio/i3.png' alt>
-
-                                            </figure>
-                                            <div class='content'>
-
-                                                <!--project popup title-->
-                                                <h4>Jeontuz Sympo</h4>
-
-                                                <!--project popup description-->
-                                                <p>
-                                                    One of my favourite and heavy weight website is the Jeontuz National Level Symposium conducted by the IT Department of our College!</p>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-
-                            <li data-groups='["web"]'>
-                                <div class='inner'>
-                                    <img src='img/portfolio/i4.png' alt>
-
-                                    <div class='overlay'>
-
-                                        <a href='#popup-4' class='view-project'>
-												View Project
-											</a>
-
-                                        <!--project popup-->
-                                        <div id='popup-4' class='popup-box zoom-anim-dialog mfp-hide'>
-                                            <figure>
-
-                                                <!--project popup image-->
-                                                <img src='img/portfolio/i4.png' alt>
-
-                                            </figure>
-                                            <div class='content'>
-
-                                                <!--project popup title-->
-                                                <h4>Jeontuz Sympo</h4>
-
-                                                <!--project popup description-->
-                                                <p>
-                                                    There are various modules in the National level organised event-Jeontuz</p>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li data-groups='["tech"]'>
-                                <div class='inner'>
-                                    <img src='img/portfolio/i5.png' alt>
-
-                                    <div class='overlay'>
-
-                                        <a href='#popup-5' class='view-project'>
-												View Project
-											</a>
-
-                                        <!--project popup-->
-                                        <div id='popup-5' class='popup-box zoom-anim-dialog mfp-hide'>
-                                            <figure>
-
-                                                <!--project popup image-->
-                                                <img src='img/portfolio/i5.png' alt>
-
-                                            </figure>
-                                            <div class='content'>
-
-                                                <!--project popup title-->
-                                                <h4>Events-Jeontuz</h4>
-
-                                                <!--project popup description-->
-                                                <p>
-                                                    The events module is totally different and unlike ordinary sites, this page attracts the user to register for the events! </p>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li data-groups='["tech"]'>
-                                <div class='inner'>
-                                    <img src='img/portfolio/i7.png' alt>
-
-                                    <div class='overlay'>
-
-                                        <a href='#popup-6' class='view-project'>
-												View Project
-											</a>
-
-                                        <!--project popup-->
-                                        <div id='popup-6' class='popup-box zoom-anim-dialog mfp-hide'>
-                                            <figure>
-
-                                                <!--project popup image-->
-                                                <img src='img/portfolio/i7.png' alt>
-
-                                            </figure>
-                                            <div class='content'>
-
-                                                <!--project popup title-->
-                                                <h4>REINOX</h4>
-
-                                                <!--project popup description-->
-                                                <p>
-                                                    One of the favourite and huge website is the Reinox website which i have designed for the national level congferences in our college!</p>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-
-
-
-
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-
-            <!--=====================================================
-					Contact Section
-				=====================================================-->
-            <section id='contact' class='section contact-section border-d'>
-
-                <div class='section-block contact-block'>
-
-                    <div class='container-fluid'>
-
-                        <div class='section-header'>
-                            <h2>Contact <strong class='color'>Me</strong></h2>
-                        </div>
-
-
-                        <div class='row'>
-
-                            <div class='col-md-8'>
-
-                                <div class='contact-form'>
-
-                                    <form id='contact-form' data-toggle='validator' method='post' action='mail.php'>
-
-                                        <div id='contact-form-result'></div>
-
-                                        <div class='row'>
-
-                                            <div class='col-md-6'>
-                                                <div class='form-group'>
-
-                                                    <input type='text' class='form-control' placeholder='Name' name='name' required>
-                                                    <div class='help-block with-errors'></div>
-
-                                                </div>
-                                            </div>
-
-                                            <div class='col-md-6'>
-                                                <div class='form-group'>
-
-                                                    <input type='email' class='form-control' placeholder='Email' name='email' required>
-                                                    <div class='help-block with-errors'></div>
-
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class='form-group'>
-
-                                            <input type='text' class='form-control' placeholder='Subject' name='subject' required>
-                                            <div class='help-block with-errors'></div>
-
-                                        </div>
-
-                                        <div class='form-group'>
-
-                                            <textarea class='form-control' placeholder='Message' name='message' rows='5' required></textarea>
-                                            <div class='help-block with-errors'></div>
-
-                                        </div>
-
-                                        <div class='form-group text-center'>
-                                            <button type='submit' class='btn-custom btn-color'>
-													Send Message
-												</button>
-                                        </div>
-
-                                    </form>
-
-                                </div>
-
-
-                            </div>
-
-                            <div class='col-md-4'>
-
-                                <div class='contact-info-icons'>
-
-                                    <div class='contact-info'>                                        
-                                        <i class='ion-ios-location-outline'></i>                                                
-                                        <span><p>Narayanasamy Kovil Street,Kalugumalai<br> Kovilpatti, Tuticorin</p></span>
-                                    </div>
-
-
-                                    <div class='contact-info'>
-
-                                        <i class='ion-ios-telephone-outline'></i>
-                                        <br>
-                                        <span><p>9080150***</p></span>
-
-                                    </div>
-
-
-                                    <div class='contact-info text-center' style="margin: auto;margin-top: auto;">
-
-                                        <i class='ion-android-globe'></i>
-                                        <br>
-                                        <span><a href="mailto:jesuva.2308@gmail.com">jesuva.2308@gmail.com</a></span>
-
-                                    </div>
-
-
-
-
-                                </div>
-
-
-
-                            </div>
-
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-
-            </section>
-
-        </div>
-
+      </div>
     </div>
 
+    
 
-    <!--=====================================================
-			JavaScript Files
-		=====================================================-->
-    <script src='js/jquery.min.js'></script>
-    <script src='js/jquery.shuffle.min.js'></script>
-    <script src='js/owl.carousel.min.js'></script>
-    <script src='js/jquery.magnific-popup.min.js'></script>
-    <script src='js/validator.min.js'></script>
-    <script src='js/script.js'></script>
+   </script><script src="js/bootstrap.min.js"></script>
+    <script src="js/page-transition.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
 
-</body>
+    <script src="preview/lmpixels-demo-panel.js"></script>
+  </body>
+
 
 </html>
