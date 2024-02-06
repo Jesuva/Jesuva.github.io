@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Jesuva.github.io/static/css/main.be28822b.css",
+    "main.js": "/Jesuva.github.io/static/js/main.bca297fa.js",
+    "static/js/787.2dcca737.chunk.js": "/Jesuva.github.io/static/js/787.2dcca737.chunk.js",
+    "static/media/profile-img1.jpg": "/Jesuva.github.io/static/media/profile-img1.0a8c6b43da1c3963cb73.jpg",
+    "static/media/Jesuva3.jpg": "/Jesuva.github.io/static/media/Jesuva3.a9057eca77046f9dae07.jpg",
+    "static/media/profile1.jpg": "/Jesuva.github.io/static/media/profile1.6bca867e788b8509f88c.jpg",
+    "static/media/profile-img.jpg": "/Jesuva.github.io/static/media/profile-img.930bee4e335e85ee94ea.jpg",
+    "index.html": "/Jesuva.github.io/index.html",
+    "main.be28822b.css.map": "/Jesuva.github.io/static/css/main.be28822b.css.map",
+    "main.bca297fa.js.map": "/Jesuva.github.io/static/js/main.bca297fa.js.map",
+    "787.2dcca737.chunk.js.map": "/Jesuva.github.io/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be28822b.css",
+    "static/js/main.bca297fa.js"
+  ]
+}
