@@ -12,7 +12,6 @@ export const profile = {
   email: 'jesrasto@gmail.com',
   linkedin: 'https://linkedin.com/in/jesuva',
   medium: 'https://medium.com/@jesuva',
-  resumeFile: '/Jesuva_Arockiadoss_Resume.pdf',
   summary:
     "I design and scale high-availability systems — the kind that stay up at 2 a.m. when 2 million messages an hour depend on it. Over the past 5+ years I've moved between frontend performance work and backend distributed systems, usually landing wherever a platform is breaking under its own growth. Lately that means pairing that systems background with AI tooling to ship faster without cutting corners.",
   status: {

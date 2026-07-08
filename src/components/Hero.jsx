@@ -81,9 +81,6 @@ export default function Hero() {
             >
               View the work
             </a>
-            <a className="btn btn--ghost" href={profile.resumeFile} target="_blank" rel="noreferrer">
-              Download résumé <ArrowUpRight size={15} />
-            </a>
           </motion.div>
 
           <motion.div className="hero__social" variants={fadeUp} initial="hidden" animate="show" custom={0.4}>

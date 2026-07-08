@@ -23,9 +23,6 @@ export default function Contact() {
           <a className="btn btn--primary" href={`mailto:${profile.email}`}>
             Say hello <ArrowUpRight size={15} />
           </a>
-          <a className="btn btn--ghost" href={profile.resumeFile} target="_blank" rel="noreferrer">
-            Download résumé
-          </a>
         </div>
 
         <div className="contact__channels reveal" ref={ref} data-visible={visible} style={{ '--reveal-delay': '240ms' }}>

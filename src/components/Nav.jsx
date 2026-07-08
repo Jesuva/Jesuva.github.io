@@ -99,8 +99,6 @@ export default function Nav() {
     if (!cmd) return;
     if (cmd.type === 'section') {
       document.getElementById(cmd.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    } else if (cmd.id === 'resume') {
-      window.open(profile.resumeFile, '_blank', 'noopener');
     } else if (cmd.id === 'mail') {
       window.location.href = `mailto:${profile.email}`;
     } else if (cmd.id === 'linkedin') {
